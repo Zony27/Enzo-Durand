@@ -10,6 +10,6 @@
 (COALESCE(to_int("Am_elarg"), 0) * 1) +  
 (COALESCE(to_int("Av_elarg"), 0) * 1) + 
 (COALESCE(to_int("Av_chute"), 0) * 1.5) + 
-(COALESCE(to_int("Chausse"), 0) * 0.7) - 
+(COALESCE(to_int("Chausse"), 0) * 1.5) - 
 (COALESCE(to_int("Am_stabil"), 0) * 2) -  
 (COALESCE(to_int("Av_stabil"), 0) * 2) 
