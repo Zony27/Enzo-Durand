@@ -1,0 +1,15 @@
+(COALESCE(to_int("Qual_ponce"), 0) * 3) +  
+(COALESCE(to_int("Am_eros"), 0) * 2.5) +  
+(COALESCE(to_int("Av_eros"), 0) * 2) +  
+(COALESCE(to_int("Am_sedi_ac"), 0) * 1.5) +  
+(COALESCE(to_int("Av_sedi_ac"), 0) * 1.5) +  
+(COALESCE(to_int("Am_obstru"), 0) * 1.2) +  
+(COALESCE(to_int("Av_obstru"), 0) * 1.2) +  
+(COALESCE(to_int("Am_gril_ca"), 0) * 0.8) +  
+(COALESCE(to_int("Av_gril_ca"), 0) * 0.8) +  
+(COALESCE(to_int("Am_elarg"), 0) * 1) +  
+(COALESCE(to_int("Av_elarg"), 0) * 1) + 
+(COALESCE(to_int("Av_chute"), 0) * 1.5) + 
+(COALESCE(to_int("Chausse"), 0) * 0.7) - 
+(COALESCE(to_int("Am_stabil"), 0) * 2) -  
+(COALESCE(to_int("Av_stabil"), 0) * 2) 
