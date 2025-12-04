@@ -1,0 +1,13 @@
+CASE 
+    WHEN "Diametre" = 'rectangulaire' THEN 1 
+    WHEN "Diametre" = 'n.a' THEN 1.5 
+    WHEN "Diametre" IS NULL THEN 1.5 
+    WHEN "Diametre" LIKE '2x%' THEN 1 
+    WHEN "Diametre" LIKE '3x%' THEN 0.75 
+    WHEN "Diametre" IN ('275', '300', '365', '375') THEN 2.5 
+    WHEN "Diametre" IN ('450') THEN 2 
+    WHEN "Diametre" IN ('600', '650', '675') THEN 1.5 
+    WHEN "Diametre" IN ('750') THEN 1 
+    WHEN "Diametre" IN ('900') THEN 0.5 
+    ELSE 1.5 
+END 
